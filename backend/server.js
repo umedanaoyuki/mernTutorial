@@ -7,7 +7,9 @@ const app = express()
 
 //middleware
 app.use((req, res, next) => {
+    console.log("ミドルウエア動作")
     console.log(req.path, req.method)
+    
     next()
 })
 
