@@ -4,7 +4,7 @@ const WorkoutDetails = ({ workout }) => {
             <h4>{workout.title}</h4>
             <p><strong>Load(kg):</strong>{workout._id}</p>
             <p><strong>Reps: </strong>{workout.reps}</p>
-            <p>{workout.createAt}</p>
+            <p>{workout.createdAt}</p>
         </div>
     );
 }
